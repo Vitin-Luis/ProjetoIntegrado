@@ -1,0 +1,346 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+}
+
+body{
+    height: 100vh;
+}
+
+#navbar{
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar a{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a.separado{
+    float: right;
+    color: white;
+}
+
+
+a:hover{
+    color: black;
+    background-color: #04AA6D;
+}
+
+#semlixo{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin-left: 300px;
+}
+
+#portfolio{
+    color: white;
+    font-size: 22px;
+}
+
+#equipe{
+    color: white;
+    font-size: 22px;
+}
+
+#contato{
+    color: white;
+    font-size: 22px;
+}
+
+
+.separado{
+    float: right;
+    color: white;
+    font-size: 22px;
+}
+
+.separado:hover{
+    color: black;
+    background-color: #04AA6D;
+}
+
+#registro{
+}
+
+#h1{
+    padding-top: 20px;
+    padding-left: 14px;
+    padding-right: 14px;
+    float: right;
+    color: white;
+    font-size: 16px;
+}
+
+#main1{
+    height: 564.156px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #03bb85;
+}
+
+
+.quem{
+    margin-left: 150px;
+    display: flex;
+    margin-top: 40px;
+    align-self: center;
+    padding-bottom: 240px;
+    flex-direction: column;
+}
+
+#somos{
+    font-size: 50px;
+}
+
+#p1{
+    margin-right: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.logosection{
+}
+
+#logo{
+    align-content: flex-end;
+    margin-right: 90px;
+    margin-top: 35px;
+    float: right;
+    width: 450px;
+}
+
+#main2{
+    display: flex;
+    flex-direction: column;
+    height: 280vh;
+    background-color: aliceblue;
+}
+
+.separacao{
+    min-height: 140px;
+    text-align: center;
+    display:inline;
+    height: 140px;
+    background-color: #333;
+}
+
+#recicle{
+    margin-left: 270px;
+    margin-bottom: 13px;
+}
+
+#form{
+    padding-left: 80px;
+    padding-right: 80px;
+    height:fit-content;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    margin-left: 250px;
+    width: fit-content;
+    background-color: #04AA6D;
+    display: inline-flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 3%;
+}
+
+#formsection{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label{
+    margin-bottom: 5px;
+    margin-right: 30px;
+    width: fit-content;
+    font-size: 16px;
+}
+
+.input{
+    border-radius: 4%;
+    padding: 3px;
+    margin-bottom: 10px;
+    width: 170px;
+}
+
+#mapa{
+    width: 400px;
+    height: 350px;
+    margin-right: 150px;
+    padding-bottom: 20px;
+}
+
+#separacao2{
+    text-align: center;
+    width: 100%;
+    display:inline;
+    min-height: 140px;
+    height: 140px;
+    background-color: #333;
+}
+
+
+
+
+#portfoliosection{
+    width: fit-content;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+#bancosection{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+#banco{
+    width: 322.27px;
+}
+
+.textoimagem{
+    margin-top: 10px;
+}
+
+#imagemprograma{
+    margin-right: 170px;
+}
+
+#programacao{
+    width: 407.41px;
+    height: 177.23px;
+}
+
+.linkgit{
+    text-decoration: none;
+
+}
+
+#linkgit{
+    margin-top: 12px;
+    text-align: center;
+}
+
+#separacao3{
+    min-height: 140px;
+    text-align: center;
+    display:inline;
+    height: 140px;
+    background-color: #333;
+}
+
+#equipesection{
+    display: flex;
+    margin-top: 40px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.equipesection{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.imagemequipe{
+    width: 300px;
+    border-radius: 2%;
+}
+
+#vito{
+    margin-right: 20px;
+}
+
+#daniel{
+    margin-left: 20px;
+}
+
+.nomes{
+    text-align: center;
+}
+
+footer{
+    flex-direction: column;
+    background-color: #333;
+    height: 130px;
+    display: flex;
+}
+
+#divcontato{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#telemail{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#divinfo{
+    justify-content: space-around;
+    display: flex;
+    font-size: 10px;
+}
+
+#tel{
+    margin-left: 60px;
+}
+
+#notrash{
+    padding-left: 40px;
+}
+
+#reciclagem{
+    width: 300px;
+}
+
+#portofolio{
+    width: fit-content;
+    margin-right: 90px;
+    font-size: 90px;
+}
+
+#dessa{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+#nossa{
+    font-size: 26px;
+    margin-bottom: 22px;
+}
+
+#h1portfolio{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+#google{
+    text-align: center;
+}
+
+#estamos{
+    margin-right:140px;
+    margin-bottom: 20px;
+}
+
+#nossaequipe{
+    font-size: 25px;
+}
